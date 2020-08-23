@@ -36,17 +36,28 @@ $(function() {
 		return false;
 	});
 
-	// $(".fancybox").fancybox({
-	// 	padding: '20',
-	// 	prevEffect		: 'none',
-	// 	nextEffect		: 'none',
-	// 	closeBtn		: false,
-	// 	helpers		: {
-	// 		title	: { type : 'inside' },
-	// 		buttons	: {}
-	// 	}	});
-
-	$('.advert__slider').slick();
+	$('.advert__slider').slick({
+		arrows: true,
+		dots: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 1,
+					arrows: false
+				}
+			}
+		]
+	});
 
 })
 
