@@ -20,86 +20,39 @@
 	<link rel="stylesheet" href="stack/bootstrap.min.css">
 	<link rel="stylesheet" href="stack/reset.css">
 
-	<!-- <link rel="stylesheet" href="stack/fancy/jquery.fancybox.css"> -->
-
-	<!-- <link rel="stylesheet" href="stack/slick/slick.css">
-	<link rel="stylesheet" href="stack/slick/slick-theme.css"> -->
-
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 
-	<header class="header">
-		<div class="header-overlay">    <!-- затемнить основное изображение -->
-			<div class="container">
-				<div class="nav-container ff-rbt-400">
-
-					<div class="header-logo fz18">
-						<a href="#" class="c-white">ООО «ППЖТ»</a>
-					</div>    <!-- class="header-logo" -->
-
-					<div class="nav-wrapper">    <!-- Навигация -->
-						<!-- Навигация для большого экрана -->
-						<ul class="nav">
-							<li class="nav__item">
-								<a href="#about" class="nav__link go_to">О нас</a>
-							</li>
-							<li class="nav__item">
-								<a href="#services" class="nav__link go_to">Услуги</a>
-							</li>
-							<li class="nav__item">
-								<a href="#advert" class="nav__link go_to">Объявления</a>
-							</li>
-							<li class="nav__item">
-								<a href="#vacancy" class="nav__link go_to">Вакансии</a>
-							</li>
-							<li class="nav__item">
-								<a href="#contacts" class="nav__link go_to">Контакты</a>
-							</li>
-							<li class="nav__item">
-								<a href="#map" class="nav__link go_to">Схема проезда</a>
-							</li>
-						</ul>
-
-						<!-- Кнопка для мобильнй навигации -->
-						<div class="menu-icon" id="menu-toggle">
-							<div class="menu-icon-line"></div>
-						</div>    <!-- class="menu-icon" -->
-
-						<!-- Мобильная навигация -->
-						<div id="mobile-nav" class="mobile-nav">
-							<ul class="mobile-nav__list">
-								<li class="mobile-nav__item">
-									<a href="#about" class="mobile-nav__link go_to">О нас</a>
-								</li>
-								<li class="mobile-nav__item">
-									<a href="#services" class="mobile-nav__link go_to">Услуги</a>
-								</li>
-								<li class="mobile-nav__item">
-									<a href="#advert" class="mobile-nav__link go_to">Объявления</a>
-								</li>
-								<li class="mobile-nav__item">
-									<a href="#vacancy" class="mobile-nav__link go_to">Вакансии</a>
-								</li>
-								<li class="mobile-nav__item">
-									<a href="#contacts" class="mobile-nav__link go_to">Контакты</a>
-								</li>
-								<li class="mobile-nav__item">
-									<a href="#map" class="mobile-nav__link go_to">Схема проезда</a>
-								</li>
-							</ul>
-
-						</div>    <!-- class="mobile-nav" -->
-					</div>    <!-- class="nav-wrapper" -->
-				</div>    <!-- class="nav-container" -->
-
-				<h1 class="ff-ari-700 c-white tac">ПРОМЫШЛЕННОЕ ПРЕДПРИЯТИЕ <br>ЖЕЛЕЗНОДОРОЖНОГО <br>ТРАНСПОРТА</h1>
-				<p class="c-white tac ff-ari-400 fz15">Подъездные железнодорожные пути к промышленным предприятиям</p>
-
-			</div>    <!-- class="container" -->
-		</div>    <!-- class="header-overlay" -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header-body ff-rbt-400">
+				<a href="#" class="header-logo c-white fz18">ООО "ППЖТ"</a>
+				<div class="header-burger">
+					<span></span>
+				</div>
+				<nav class="header-menu">
+					<ul class="header-list fz12">
+						<li class="mr15"><a href="#about" class="header-link go_to">О нас</a></li>
+						<li class="mr15"><a href="#services" class="header-link go_to">Услуги</a></li>
+						<li class="mr15"><a href="#advert" class="header-link go_to">Объявления</a></li>
+						<li class="mr15"><a href="#vacancy" class="header-link go_to">Вакансии</a></li>
+						<li class="mr15"><a href="#contacts" class="header-link go_to">Контакты</a></li>
+						<li><a href="#map" class="header-link go_to">Схема проезда</a></li>
+					</ul>
+				</nav>	
+			</div>    <!-- class="header-body" -->
+		</div>    <!-- class="container" -->
 	</header>
+
+	<section class="first-screen">
+		<div class="container">
+			<h1 class="ff-ari-700 c-white tac">ПРОМЫШЛЕННОЕ ПРЕДПРИЯТИЕ <br>ЖЕЛЕЗНОДОРОЖНОГО <br>ТРАНСПОРТА</h1>
+			<p class="c-white tac ff-ari-400 fz15">Подъездные железнодорожные пути к промышленным предприятиям</p>
+			
+		</div>
+	</section>
 
 	<section class="services c-dark" id="services">
 		<div class="container">
@@ -272,7 +225,6 @@
 	<script src="stack/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-	<!-- <script src="stack/fancy/jquery.fancybox.js"></script> -->
 	<script src="stack/slick/slick.min.js"></script>
 
 	<script src="js/main.js"></script>
