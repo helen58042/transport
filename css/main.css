@@ -156,7 +156,7 @@ h4 {
 
 .first-screen {
 	position: relative;
-	padding-top: 10%;
+	padding-top: 15%;
 	height: 800px;
 	background-image: url('../img/main_screen_dark.jpg');
 	background-size: cover;
@@ -204,7 +204,7 @@ h4 {
 }
 
 
-/*  ------  about - start  ------  */
+/*  ------  advert - start  ------  */
 .advert {
 	background: url('../img/zhd2.jpg');
 	background-size: cover;

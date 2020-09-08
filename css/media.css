@@ -19,6 +19,7 @@
 }
 
 @media screen and (max-width: 767px) {
+	.fz18 { font-size: 16px; }
 	body.lock { overflow: hidden; } /* При открытом меню не скроллить экран */
 	.header-body {}
 	.header-burger {
@@ -82,6 +83,7 @@
 		margin-bottom: 5px;
 		margin-top: 5px;
 	}
+	.first-screen { height: 500px; }
 }
 
 @media screen and (max-width: 700px) {
@@ -92,11 +94,17 @@
 @media screen and (max-width: 576px) {
 	h1 { font-size: 26px; }
 	.fz18 { font-size: 15px; }
-	.about-block { padding: 10px; }
+	.first-screen { height: 400px; }
+	.about-block { padding: 15px 10px; }
 }
 
 @media screen and (max-width: 500px) {
 	h1 { font-size: 22px; }
+	h4 { font-size: 14px; }
 	.fz15 { font-size: 12px; }
+	.advert__slider {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
